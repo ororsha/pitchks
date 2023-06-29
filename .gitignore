@@ -1,0 +1,14 @@
+# WordPress .gitignore
+# Ignore everything in the root except the "wp-content" directory
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in the "wp-content" directory except the "plugins" and "themes" directories
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore all files with these extensions
+*.log
+*.sql
