@@ -1,14 +1,64 @@
-# WordPress .gitignore
-# Ignore everything in the root except the "wp-content" directory
-/*
-!.gitignore
-!wp-content/
-
-# Ignore everything in the "wp-content" directory except the "plugins" and "themes" directories
-wp-content/*
-!wp-content/plugins/
-!wp-content/themes/
-
-# Ignore all files with these extensions
+# Ignore specific files
+.my.cnf.*
+.my.output.*
+.mysql.*
+.env
 *.log
 *.sql
+*.sqlite
+
+# Ignore executables and compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore compressed and archived files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore server configuration files
+.htaccess
+
+# Ignore specific project files
+license.txt
+readme.html
+
+# Ignore dependencies
+node_modules/
+
+# Ignore specific tools or files
+Search-Replace-DB
+pay.php
+sftp-config.json
+/pr.txt
+
+# Ignore WordPress configuration
+wp-config.php
+
+# Ignore cache and uploaded files
+wp-content/cache/
+wp-content/uploads/
+
+# Ignore index files
+wp-content/index.php
+wp-content/plugins/index.php
+wp-content/themes/index.php
+
+# Ignore database backup files
+/uti_db
+
+# Ignore system-specific files
+.DS_Store
+wp-content/.DS_Store
