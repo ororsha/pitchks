@@ -62,4 +62,3 @@ wp-content/themes/index.php
 # Ignore system-specific files
 .DS_Store
 wp-content/.DS_Store
-/wp-content/plugins/woocommerce/vendor/autoload_packages.php
