@@ -5,7 +5,11 @@
  * @package automattic/jetpack-autoloader
  */
 
+<<<<<<< HEAD
 namespace Automattic\Jetpack\Autoloader\jp741993bb9566fe1702f83908718d3a93;
+=======
+namespace Automattic\Jetpack\Autoloader\jpa51b108f1ecd9d34ea1edd07d52359bc;
+>>>>>>> 2301bd9 (Added new theme)
 
  // phpcs:ignore
 

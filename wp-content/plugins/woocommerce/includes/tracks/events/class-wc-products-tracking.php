@@ -10,6 +10,11 @@ use Automattic\WooCommerce\Internal\Admin\WCAdminAssets;
 
 defined( 'ABSPATH' ) || exit;
 
+<<<<<<< HEAD
+=======
+require_once WC_ABSPATH . 'includes/admin/wc-admin-functions.php';
+
+>>>>>>> 2301bd9 (Added new theme)
 /**
  * This class adds actions to track usage of WooCommerce Products.
  */

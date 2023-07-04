@@ -1,8 +1,13 @@
 <?php return array(
     'root' => array(
         'name' => 'woocommerce/woocommerce',
+<<<<<<< HEAD
         'pretty_version' => '7.8.1',
         'version' => '7.8.1.0',
+=======
+        'pretty_version' => '7.8.2',
+        'version' => '7.8.2.0',
+>>>>>>> 2301bd9 (Added new theme)
         'reference' => NULL,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -104,8 +109,13 @@
             'dev_requirement' => false,
         ),
         'woocommerce/woocommerce' => array(
+<<<<<<< HEAD
             'pretty_version' => '7.8.1',
             'version' => '7.8.1.0',
+=======
+            'pretty_version' => '7.8.2',
+            'version' => '7.8.2.0',
+>>>>>>> 2301bd9 (Added new theme)
             'reference' => NULL,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',

@@ -33,7 +33,11 @@ final class WooCommerce {
 	 *
 	 * @var string
 	 */
+<<<<<<< HEAD
 	public $version = '7.8.1';
+=======
+	public $version = '7.8.2';
+>>>>>>> 2301bd9 (Added new theme)
 
 	/**
 	 * WooCommerce Schema version.
