@@ -4,3 +4,8 @@
 #wrapper {
   direction: rtl;
 }
+
+.nav-right li.current-dropdown:last-child>.nav-dropdown, .nav-right li.has-dropdown:hover:last-child>.nav-dropdown {
+  left: 0 !important;
+  right: unset !important;
+}
